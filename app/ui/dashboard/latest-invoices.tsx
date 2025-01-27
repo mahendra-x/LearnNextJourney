@@ -6,7 +6,7 @@ import { LatestInvoice } from '@/app/lib/definitions';
 import { fetchLatestInvoices } from '@/app/lib/data';
 export default async function LatestInvoices({
 }: {
-  latestInvoices: LatestInvoice[];
+  // latestInvoices: LatestInvoice[];
 }) {
   const latestInvoices = await fetchLatestInvoices();
   return (
